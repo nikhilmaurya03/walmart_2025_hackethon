@@ -1,0 +1,145 @@
+/* Alert.css */
+/* Alert.css */
+
+.alerts-container {
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.alerts-heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: #c2185b;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.alert-card {
+  background-color: #fff4f4;
+  border-left: 6px solid #f28b82;
+  border-radius: 12px;
+  padding: 18px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.alert-card:hover {
+  transform: scale(1.02);
+  background-color: #ffe6e6;
+}
+
+.alert-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.alert-icon {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #c2185b;
+}
+
+.alert-product {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.alert-info {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.alert-info span:first-child {
+  font-weight: 600;
+  color: #222;
+}
+
+.alert-message {
+  font-weight: 500;
+}
+
+.no-alerts {
+  text-align: center;
+  font-size: 18px;
+  color: #aaa;
+  font-style: italic;
+}
+
+.alert-top {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.alert-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  background-color: #fff;
+}
+
+@media (max-width: 600px) {
+  .alert-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .alert-image {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+  }
+}
+
+
+
+
+
+
+.alert-line {
+  margin: 6px 0;
+  font-size: 16px;
+}
+
+.alert-label {
+  font-weight: 600;
+  color: #555;
+}
+
+.no-alerts {
+  color: #888;
+  font-style: italic;
+  text-align: center;
+  padding: 30px;
+}
+
+.alert-message {
+  color: #d9534f; /* Bootstrap red / danger */
+  font-weight: 500;
+}
+.alert-date {
+  color: #6c757d; /* Bootstrap secondary */
+  font-size: 14px;
+  margin-top: 5px;
+}
+.alert-name {
+  font-weight: 600;
+  color: #343a40; /* Bootstrap dark */
+}
+.alert-stock {
+  color: #28a745; /* Bootstrap success */
+  font-weight: 500;
+}
+.alert-type {
+  color: #17a2b8; /* Bootstrap info */
+  font-weight: 500;
+}

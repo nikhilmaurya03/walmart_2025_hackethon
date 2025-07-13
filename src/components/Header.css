@@ -1,0 +1,161 @@
+.wmt-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0071ce;
+  padding: 10px 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+  flex-wrap: wrap;
+}
+
+.wmt-header-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex: 1 1 100%;
+  margin-bottom: 10px;
+}
+
+.wmt-logo {
+  height: 36px;
+}
+
+.wmt-location {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  line-height: 1.2;
+  color: white;
+}
+
+.wmt-location-icon {
+  font-size: 18px;
+}
+
+/* Search */
+.wmt-search {
+  flex: 1 1 100%;
+  display: flex;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+
+.wmt-search input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  font-size: 14px;
+  border-radius: 4px 0 0 4px;
+  min-width: 0;
+}
+
+.wmt-search-button {
+  background-color: #ffc220;
+  border: none;
+  padding: 0 16px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+}
+
+/* Right section */
+.wmt-header-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  flex: 1 1 100%;
+}
+
+.wmt-account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.wmt-cart {
+  position: relative;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.wmt-cart-count {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background: red;
+  color: white;
+  font-size: 10px;
+  border-radius: 50%;
+  padding: 2px 5px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .wmt-header {
+    flex-wrap: nowrap;
+  }
+
+  .wmt-header-left,
+  .wmt-search,
+  .wmt-header-right {
+    flex: none;
+    margin-bottom: 0;
+  }
+
+  .wmt-header-left {
+    flex: 0 0 auto;
+  }
+
+  .wmt-search {
+    flex: 1 1 auto;
+    margin: 0 20px;
+  }
+
+  .wmt-header-right {
+    flex: 0 0 auto;
+  }
+
+  .wmt-account {
+    flex-direction: row;
+    gap: 6px;
+    font-size: 14px;
+  }
+
+  .wmt-location {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wmt-search-button {
+    padding: 0 10px;
+  }
+
+  .wmt-location-text {
+    font-size: 11px;
+  }
+
+  .wmt-logo {
+    height: 30px;
+  }
+
+  .wmt-account {
+    font-size: 11px;
+  }
+
+  .wmt-cart {
+    font-size: 20px;
+  }
+}
+
+.wmt-logo:hover{
+ background-color: black;
+ border-radius: 20px;
+ 
+
+}
