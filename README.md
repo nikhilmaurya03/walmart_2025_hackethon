@@ -50,20 +50,27 @@ CORS enabled between Flask and Express
 
 Error handling for bad data and failed predictions
 
-Steps to Run Project:--
-1. git clone https://github.com/nikhilmaurya03/walmart_2025_hackethon.git
-    cd walmart_2025_hackethon
-2. cd ml
-    pip install flask flask-cors pandas scikit-learn joblib
-    python ml_api.py
-   
-3. cd backend
-    npm install
-    node index.js
+## 🚀 Steps to Run Project
 
-4. cd frontend
-    npm install
-    npm start
+1. Clone the repository and enter the folder:  
+   `git clone https://github.com/nikhilmaurya03/walmart_2025_hackethon.git`  
+   `cd walmart_2025_hackethon`
+
+2. Setup Flask ML API:  
+   `cd ml`  
+   `pip install flask flask-cors pandas scikit-learn joblib`  
+   `python ml_api.py`
+
+3. Start Express Backend:  
+   `cd ../backend`  
+   `npm install`  
+   `node index.js`
+
+4. Start React Frontend:  
+   `cd ../frontend`  
+   `npm install`  
+   `npm start`
+
 
 📸 Screenshots
 <img width="1914" height="1030" alt="Screenshot 2025-07-13 133037" src="https://github.com/user-attachments/assets/27bf64ab-f50b-4b43-ad39-9788d64c53e7" />
